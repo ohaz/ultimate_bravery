@@ -1,0 +1,1537 @@
+{
+  "boots": [
+    {
+      "icon": "berserkersgreaves.png",
+      "id": 0,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Berserker's Greaves",
+      "requirements": []
+    },
+    {
+      "icon": "bootsofmobility.png",
+      "id": 1,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Boots of Mobility",
+      "requirements": []
+    },
+    {
+      "icon": "bootsofswiftness.png",
+      "id": 2,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Boots of Swiftness",
+      "requirements": []
+    },
+    {
+      "icon": "ionianbootsoflucidity.png",
+      "id": 3,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Ionian Boots of Lucidity",
+      "requirements": []
+    },
+    {
+      "icon": "mercurystreads.png",
+      "id": 4,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Mercury's Treads",
+      "requirements": []
+    },
+    {
+      "icon": "ninjatabi.png",
+      "id": 5,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Ninja Tabi",
+      "requirements": []
+    },
+    {
+      "icon": "sorcerersshoes.png",
+      "id": 6,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Sorcerer's Shoes",
+      "requirements": []
+    }
+  ],
+  "boots_enchantments": [
+    {
+      "icon": "Alacrity.gif",
+      "id": 0,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Alacrity",
+      "requirements": []
+    },
+    {
+      "icon": "Captain.gif",
+      "id": 1,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Captain",
+      "requirements": []
+    },
+    {
+      "icon": "Distortion.gif",
+      "id": 2,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Distortion",
+      "requirements": []
+    },
+    {
+      "icon": "Furor.gif",
+      "id": 3,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Furor",
+      "requirements": []
+    }
+  ],
+  "items": [
+    {
+      "icon": "abyssalscepter.png",
+      "id": 0,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Abyssal Scepter",
+      "requirements": []
+    },
+    {
+      "icon": "archangelsstaff.png",
+      "id": 1,
+      "maps": [
+        "SR",
+        "TT",
+        "HA"
+      ],
+      "name": "Archangel's Staff",
+      "requirements": []
+    },
+    {
+      "icon": "ardentcenser.png",
+      "id": 2,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Ardent Censer",
+      "requirements": []
+    },
+    {
+      "icon": "athenesunholygrail.png",
+      "id": 3,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Athene's Unholy Grail",
+      "requirements": []
+    },
+    {
+      "icon": "Banner_of_Command.gif",
+      "id": 4,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Banner of Command",
+      "requirements": []
+    },
+    {
+      "icon": "bansheesveil.png",
+      "id": 5,
+      "maps": [
+        "SR",
+        "TT",
+        "HA"
+      ],
+      "name": "Banshee's Veil",
+      "requirements": []
+    },
+    {
+      "icon": "theblackcleaver.png",
+      "id": 6,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "The Black Cleaver",
+      "requirements": []
+    },
+    {
+      "icon": "Blade_of_the_Ruined_King.gif",
+      "id": 7,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Blade of the Ruined King",
+      "requirements": []
+    },
+    {
+      "icon": "thebloodthirster.png",
+      "id": 8,
+      "maps": [
+        "SR",
+        "HA"
+      ],
+      "name": "The Bloodthirster",
+      "requirements": []
+    },
+    {
+      "icon": "Dead_Man's_Plate.png",
+      "id": 9,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Dead Man's Plate",
+      "requirements": []
+    },
+    {
+      "icon": "Death's_Dance.png",
+      "id": 10,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Death's Dance",
+      "requirements": []
+    },
+    {
+      "icon": "Dervish_Blade.png",
+      "id": 11,
+      "maps": [
+        "TT",
+        "CS"
+      ],
+      "name": "Dervish Blade",
+      "requirements": []
+    },
+    {
+      "icon": "entropy.png",
+      "id": 12,
+      "maps": [
+        "CS",
+        "HA"
+      ],
+      "name": "Entropy",
+      "requirements": []
+    },
+    {
+      "icon": "essencereaver.png",
+      "id": 13,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Essence Reaver",
+      "requirements": []
+    },
+    {
+      "icon": "Eye_of_the_Equinox.png",
+      "id": 14,
+      "maps": [
+        "SR"
+      ],
+      "name": "Eye of the Equinox",
+      "requirements": [
+        {
+          "params": [
+            "Eye of the Equinox",
+            "Eye of the Oasis",
+            "Eye of the Watchers",
+            "Face of the Mountain",
+            "Frost Queen's Claim",
+            "Talisman of Ascension"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Eye_of_the_Oasis.png",
+      "id": 15,
+      "maps": [
+        "SR"
+      ],
+      "name": "Eye of the Oasis",
+      "requirements": [
+        {
+          "params": [
+            "Eye of the Equinox",
+            "Eye of the Oasis",
+            "Eye of the Watchers",
+            "Face of the Mountain",
+            "Frost Queen's Claim",
+            "Talisman of Ascension"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Eye_of_the_Watchers.png",
+      "id": 16,
+      "maps": [
+        "SR"
+      ],
+      "name": "Eye of the Watchers",
+      "requirements": [
+        {
+          "params": [
+            "Eye of the Equinox",
+            "Eye of the Oasis",
+            "Eye of the Watchers",
+            "Face of the Mountain",
+            "Frost Queen's Claim",
+            "Talisman of Ascension"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "faceofthemountain.png",
+      "id": 17,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Face of the Mountain",
+      "requirements": [
+        {
+          "params": [
+            "Eye of the Equinox",
+            "Eye of the Oasis",
+            "Eye of the Watchers",
+            "Face of the Mountain",
+            "Frost Queen's Claim",
+            "Talisman of Ascension"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "frostqueensclaim.png",
+      "id": 18,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Frost Queen's Claim",
+      "requirements": [
+        {
+          "params": [
+            "Eye of the Equinox",
+            "Eye of the Oasis",
+            "Eye of the Watchers",
+            "Face of the Mountain",
+            "Frost Queen's Claim",
+            "Talisman of Ascension"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "frozenheart.png",
+      "id": 19,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Frozen Heart",
+      "requirements": []
+    },
+    {
+      "icon": "frozenmallet.png",
+      "id": 20,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Frozen Mallet",
+      "requirements": []
+    },
+    {
+      "icon": "guardianangel.png",
+      "id": 21,
+      "maps": [
+        "SR",
+        "CS"
+      ],
+      "name": "Guardian Angel",
+      "requirements": []
+    },
+    {
+      "icon": "guardianshorn.png",
+      "id": 22,
+      "maps": [
+        "HA"
+      ],
+      "name": "Guardian's Horn",
+      "requirements": []
+    },
+    {
+      "icon": "guinsoosrageblade.png",
+      "id": 23,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Guinsoo's Rageblade",
+      "requirements": []
+    },
+    {
+      "icon": "hextechgunblade.png",
+      "id": 24,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Hextech Gunblade",
+      "requirements": []
+    },
+    {
+      "icon": "hextechsweeper.png",
+      "id": 25,
+      "maps": [
+        "CS",
+        "HA"
+      ],
+      "name": "Hextech Sweeper",
+      "requirements": []
+    },
+    {
+      "icon": "Iceborn_Gauntlet.gif",
+      "id": 26,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Iceborn Gauntlet",
+      "requirements": []
+    },
+    {
+      "icon": "infinityedge.png",
+      "id": 27,
+      "maps": [
+        "SR",
+        "HA"
+      ],
+      "name": "Infinity Edge",
+      "requirements": []
+    },
+    {
+      "icon": "Liandry's_Torment.gif",
+      "id": 28,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Liandry's Torment",
+      "requirements": []
+    },
+    {
+      "icon": "lichbane.png",
+      "id": 29,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Lich Bane",
+      "requirements": []
+    },
+    {
+      "icon": "thelightbringer.png",
+      "id": 30,
+      "maps": [
+        "CS",
+        "HA"
+      ],
+      "name": "The Lightbringer",
+      "requirements": []
+    },
+    {
+      "icon": "locketoftheironsolari.png",
+      "id": 31,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Locket of the Iron Solari",
+      "requirements": []
+    },
+    {
+      "icon": "Lord_Dominik's_Regards.png",
+      "id": 32,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Lord Dominik's Regards",
+      "requirements": []
+    },
+    {
+      "icon": "Lord_Van_Damm's_Pillager.gif",
+      "id": 33,
+      "maps": [
+        "TT",
+        "CS"
+      ],
+      "name": "Lord Van Damm's Pillager",
+      "requirements": []
+    },
+    {
+      "icon": "Luden's_Echo.png",
+      "id": 34,
+      "maps": [
+        "SR",
+        "HA"
+      ],
+      "name": "Luden's Echo",
+      "requirements": []
+    },
+    {
+      "icon": "manamune.png",
+      "id": 35,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Manamune",
+      "requirements": []
+    },
+    {
+      "icon": "mawofmalmortius.png",
+      "id": 36,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Maw of Malmortius",
+      "requirements": []
+    },
+    {
+      "icon": "mejaissoulstealer.png",
+      "id": 37,
+      "maps": [
+        "SR"
+      ],
+      "name": "Mejai's Soulstealer",
+      "requirements": []
+    },
+    {
+      "icon": "Mercurial_Scimitar.gif",
+      "id": 38,
+      "maps": [
+        "SR",
+        "HA"
+      ],
+      "name": "Mercurial Scimitar",
+      "requirements": []
+    },
+    {
+      "icon": "Mikael's_Crucible.gif",
+      "id": 39,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Mikael's Crucible",
+      "requirements": []
+    },
+    {
+      "icon": "moonflairspellblade.png",
+      "id": 40,
+      "maps": [
+        "TT",
+        "CS"
+      ],
+      "name": "Moonflair Spellblade",
+      "requirements": []
+    },
+    {
+      "icon": "Morellonomicon.png",
+      "id": 41,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Morellonomicon",
+      "requirements": []
+    },
+    {
+      "icon": "Mortal_Reminder.png",
+      "id": 42,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Mortal Reminder",
+      "requirements": []
+    },
+    {
+      "icon": "nashorstooth.png",
+      "id": 43,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Nashors Tooth",
+      "requirements": []
+    },
+    {
+      "icon": "odynsveil.png",
+      "id": 44,
+      "maps": [
+        "CS"
+      ],
+      "name": "Odyn's Veil",
+      "requirements": []
+    },
+    {
+      "icon": "Ohmwrecker.gif",
+      "id": 45,
+      "maps": [
+        "SR"
+      ],
+      "name": "Ohmwrecker",
+      "requirements": []
+    },
+    {
+      "icon": "orbofwinter.png",
+      "id": 46,
+      "maps": [
+        "HA"
+      ],
+      "name": "Orb of Winter",
+      "requirements": []
+    },
+    {
+      "icon": "Overlord's_Bloodmail.gif",
+      "id": 47,
+      "maps": [
+        "TT",
+        "CS"
+      ],
+      "name": "Overlord's Bloodmail",
+      "requirements": []
+    },
+    {
+      "icon": "Phantom_Dancer.png",
+      "id": 48,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Phantom Dancer",
+      "requirements": []
+    },
+    {
+      "icon": "rabadonsdeathcap.png",
+      "id": 49,
+      "maps": [
+        "SR",
+        "HA"
+      ],
+      "name": "Rabadon's Deathcap",
+      "requirements": []
+    },
+    {
+      "icon": "Randuin's_Omen.png",
+      "id": 50,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Randuin's Omen",
+      "requirements": []
+    },
+    {
+      "icon": "Rapid_Firecannon.png",
+      "id": 51,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Rapid Firecannon",
+      "requirements": []
+    },
+    {
+      "icon": "Ravenous_Hydra.png",
+      "id": 52,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Ravenous Hydra",
+      "requirements": [
+        {
+          "params": [
+            "Ravenous Hydra",
+            "Titanic Hydra"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Righteous_Glory.png",
+      "id": 53,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Righteous Glory",
+      "requirements": []
+    },
+    {
+      "icon": "rodofages.png",
+      "id": 54,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Rod of Ages",
+      "requirements": []
+    },
+    {
+      "icon": "Ruby_Sightstone.gif",
+      "id": 55,
+      "maps": [
+        "SR"
+      ],
+      "name": "Ruby Sightstone",
+      "requirements": []
+    },
+    {
+      "icon": "Runaan's_Hurricane.gif",
+      "id": 56,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Runaan's Hurricane",
+      "requirements": []
+    },
+    {
+      "icon": "rylaiscrystalscepter.png",
+      "id": 57,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Rylai's Crystal Scepter",
+      "requirements": []
+    },
+    {
+      "icon": "sanguineblade.png",
+      "id": 58,
+      "maps": [
+        "TT",
+        "CS"
+      ],
+      "name": "Sanguine Blade",
+      "requirements": []
+    },
+    {
+      "icon": "spiritvisage.png",
+      "id": 59,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Spirit Visage",
+      "requirements": []
+    },
+    {
+      "icon": "Statikk_Shiv.gif",
+      "id": 60,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Statikk Shiv",
+      "requirements": []
+    },
+    {
+      "icon": "Sterak's_Gage.png",
+      "id": 61,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Sterak's Gage",
+      "requirements": []
+    },
+    {
+      "icon": "sunfirecape.png",
+      "id": 62,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Sunfire Cape",
+      "requirements": []
+    },
+    {
+      "icon": "talismanofascension.png",
+      "id": 63,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Talisman of Ascension",
+      "requirements": [
+        {
+          "params": [
+            "Eye of the Equinox",
+            "Eye of the Oasis",
+            "Eye of the Watchers",
+            "Face of the Mountain",
+            "Frost Queen's Claim",
+            "Talisman of Ascension"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "thornmail.png",
+      "id": 64,
+      "maps": [
+        "SR",
+        "CS",
+        "HA"
+      ],
+      "name": "Thornmail",
+      "requirements": []
+    },
+    {
+      "icon": "Titanic_Hydra.png",
+      "id": 65,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Titanic Hydra",
+      "requirements": [
+        {
+          "params": [
+            "Ravenous Hydra",
+            "Titanic Hydra"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "trinityforce.png",
+      "id": 66,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Trinity Force",
+      "requirements": []
+    },
+    {
+      "icon": "voidstaff.png",
+      "id": 67,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Void Staff",
+      "requirements": []
+    },
+    {
+      "icon": "warmogsarmor.png",
+      "id": 68,
+      "maps": [
+        "SR",
+        "HA"
+      ],
+      "name": "Warmog's Armor",
+      "requirements": []
+    },
+    {
+      "icon": "willoftheancients.png",
+      "id": 69,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Will of the Ancients",
+      "requirements": []
+    },
+    {
+      "icon": "witsend.png",
+      "id": 70,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Wit's End",
+      "requirements": []
+    },
+    {
+      "icon": "Wooglet's_Witchcap.gif",
+      "id": 71,
+      "maps": [
+        "TT",
+        "CS"
+      ],
+      "name": "Wooglet's Witchcap",
+      "requirements": []
+    },
+    {
+      "icon": "youmuusghostblade.png",
+      "id": 72,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Youmuu's Ghostblade",
+      "requirements": []
+    },
+    {
+      "icon": "Zeke's_Harbinger.png",
+      "id": 73,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Zeke's Harbinger",
+      "requirements": []
+    },
+    {
+      "icon": "zhonyashourglass.png",
+      "id": 74,
+      "maps": [
+        "SR",
+        "HA"
+      ],
+      "name": "Zhonya's Hourglass",
+      "requirements": []
+    },
+    {
+      "icon": "Zz'Rot_Portal.png",
+      "id": 75,
+      "maps": [
+        "SR"
+      ],
+      "name": "Zz'Rot Portal",
+      "requirements": []
+    },
+    {
+      "icon": "duskblade_of_draktharr.png",
+      "id": 76,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Duskblade of Draktharr",
+      "requirements": []
+    }
+  ],
+  "jungle": [
+    {
+      "icon": "Skirmisher's_Sabre.png",
+      "id": 9000,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Skirmisher's Sabre + Devourer",
+      "requirements": [
+        {
+          "params": [
+            "Skirmisher's Sabre + Devourer",
+            "Stalker's Blade + Devourer",
+            "Tracker's Knife + Devourer",
+            "Skirmisher's Sabre + Cinderhulk",
+            "Stalker's Blade + Cinderhulk",
+            "Tracker's Knife + Cinderhulk",
+            "Skirmisher's Sabre + Runic Echoes",
+            "Stalker's Blade + Runic Echoes",
+            "Tracker's Knife + Runic Echoes",
+            "Skirmisher's Sabre + Warrior",
+            "Stalker's Blade + Warrior",
+            "Tracker's Knife + Warrior"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Stalker's_Blade.png",
+      "id": 9001,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Stalker's Blade + Devourer",
+      "requirements": [
+        {
+          "params": [
+            "Skirmisher's Sabre + Devourer",
+            "Stalker's Blade + Devourer",
+            "Tracker's Knife + Devourer",
+            "Skirmisher's Sabre + Cinderhulk",
+            "Stalker's Blade + Cinderhulk",
+            "Tracker's Knife + Cinderhulk",
+            "Skirmisher's Sabre + Runic Echoes",
+            "Stalker's Blade + Runic Echoes",
+            "Tracker's Knife + Runic Echoes",
+            "Skirmisher's Sabre + Warrior",
+            "Stalker's Blade + Warrior",
+            "Tracker's Knife + Warrior"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Tracker's_Knife.png",
+      "id": 9002,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Tracker's Knife + Devourer",
+      "requirements": [
+        {
+          "params": [
+            "Skirmisher's Sabre + Devourer",
+            "Stalker's Blade + Devourer",
+            "Tracker's Knife + Devourer",
+            "Skirmisher's Sabre + Cinderhulk",
+            "Stalker's Blade + Cinderhulk",
+            "Tracker's Knife + Cinderhulk",
+            "Skirmisher's Sabre + Runic Echoes",
+            "Stalker's Blade + Runic Echoes",
+            "Tracker's Knife + Runic Echoes",
+            "Skirmisher's Sabre + Warrior",
+            "Stalker's Blade + Warrior",
+            "Tracker's Knife + Warrior"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Skirmisher's_Sabre.png",
+      "id": 9003,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Skirmisher's Sabre + Cinderhulk",
+      "requirements": [
+        {
+          "params": [
+            "Skirmisher's Sabre + Devourer",
+            "Stalker's Blade + Devourer",
+            "Tracker's Knife + Devourer",
+            "Skirmisher's Sabre + Cinderhulk",
+            "Stalker's Blade + Cinderhulk",
+            "Tracker's Knife + Cinderhulk",
+            "Skirmisher's Sabre + Runic Echoes",
+            "Stalker's Blade + Runic Echoes",
+            "Tracker's Knife + Runic Echoes",
+            "Skirmisher's Sabre + Warrior",
+            "Stalker's Blade + Warrior",
+            "Tracker's Knife + Warrior"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Stalker's_Blade.png",
+      "id": 9004,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Stalker's Blade + Cinderhulk",
+      "requirements": [
+        {
+          "params": [
+            "Skirmisher's Sabre + Devourer",
+            "Stalker's Blade + Devourer",
+            "Tracker's Knife + Devourer",
+            "Skirmisher's Sabre + Cinderhulk",
+            "Stalker's Blade + Cinderhulk",
+            "Tracker's Knife + Cinderhulk",
+            "Skirmisher's Sabre + Runic Echoes",
+            "Stalker's Blade + Runic Echoes",
+            "Tracker's Knife + Runic Echoes",
+            "Skirmisher's Sabre + Warrior",
+            "Stalker's Blade + Warrior",
+            "Tracker's Knife + Warrior"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Tracker's_Knife.png",
+      "id": 9005,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Tracker's Knife + Cinderhulk",
+      "requirements": [
+        {
+          "params": [
+            "Skirmisher's Sabre + Devourer",
+            "Stalker's Blade + Devourer",
+            "Tracker's Knife + Devourer",
+            "Skirmisher's Sabre + Cinderhulk",
+            "Stalker's Blade + Cinderhulk",
+            "Tracker's Knife + Cinderhulk",
+            "Skirmisher's Sabre + Runic Echoes",
+            "Stalker's Blade + Runic Echoes",
+            "Tracker's Knife + Runic Echoes",
+            "Skirmisher's Sabre + Warrior",
+            "Stalker's Blade + Warrior",
+            "Tracker's Knife + Warrior"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Skirmisher's_Sabre.png",
+      "id": 9006,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Skirmisher's Sabre + Runic Echoes",
+      "requirements": [
+        {
+          "params": [
+            "Skirmisher's Sabre + Devourer",
+            "Stalker's Blade + Devourer",
+            "Tracker's Knife + Devourer",
+            "Skirmisher's Sabre + Cinderhulk",
+            "Stalker's Blade + Cinderhulk",
+            "Tracker's Knife + Cinderhulk",
+            "Skirmisher's Sabre + Runic Echoes",
+            "Stalker's Blade + Runic Echoes",
+            "Tracker's Knife + Runic Echoes",
+            "Skirmisher's Sabre + Warrior",
+            "Stalker's Blade + Warrior",
+            "Tracker's Knife + Warrior"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Stalker's_Blade.png",
+      "id": 9007,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Stalker's Blade + Runic Echoes",
+      "requirements": [
+        {
+          "params": [
+            "Skirmisher's Sabre + Devourer",
+            "Stalker's Blade + Devourer",
+            "Tracker's Knife + Devourer",
+            "Skirmisher's Sabre + Cinderhulk",
+            "Stalker's Blade + Cinderhulk",
+            "Tracker's Knife + Cinderhulk",
+            "Skirmisher's Sabre + Runic Echoes",
+            "Stalker's Blade + Runic Echoes",
+            "Tracker's Knife + Runic Echoes",
+            "Skirmisher's Sabre + Warrior",
+            "Stalker's Blade + Warrior",
+            "Tracker's Knife + Warrior"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Tracker's_Knife.png",
+      "id": 9008,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Tracker's Knife + Runic Echoes",
+      "requirements": [
+        {
+          "params": [
+            "Skirmisher's Sabre + Devourer",
+            "Stalker's Blade + Devourer",
+            "Tracker's Knife + Devourer",
+            "Skirmisher's Sabre + Cinderhulk",
+            "Stalker's Blade + Cinderhulk",
+            "Tracker's Knife + Cinderhulk",
+            "Skirmisher's Sabre + Runic Echoes",
+            "Stalker's Blade + Runic Echoes",
+            "Tracker's Knife + Runic Echoes",
+            "Skirmisher's Sabre + Warrior",
+            "Stalker's Blade + Warrior",
+            "Tracker's Knife + Warrior"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Skirmisher's_Sabre.png",
+      "id": 9009,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Skirmisher's Sabre + Warrior",
+      "requirements": [
+        {
+          "params": [
+            "Skirmisher's Sabre + Devourer",
+            "Stalker's Blade + Devourer",
+            "Tracker's Knife + Devourer",
+            "Skirmisher's Sabre + Cinderhulk",
+            "Stalker's Blade + Cinderhulk",
+            "Tracker's Knife + Cinderhulk",
+            "Skirmisher's Sabre + Runic Echoes",
+            "Stalker's Blade + Runic Echoes",
+            "Tracker's Knife + Runic Echoes",
+            "Skirmisher's Sabre + Warrior",
+            "Stalker's Blade + Warrior",
+            "Tracker's Knife + Warrior"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Stalker's_Blade.png",
+      "id": 9010,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Stalker's Blade + Warrior",
+      "requirements": [
+        {
+          "params": [
+            "Skirmisher's Sabre + Devourer",
+            "Stalker's Blade + Devourer",
+            "Tracker's Knife + Devourer",
+            "Skirmisher's Sabre + Cinderhulk",
+            "Stalker's Blade + Cinderhulk",
+            "Tracker's Knife + Cinderhulk",
+            "Skirmisher's Sabre + Runic Echoes",
+            "Stalker's Blade + Runic Echoes",
+            "Tracker's Knife + Runic Echoes",
+            "Skirmisher's Sabre + Warrior",
+            "Stalker's Blade + Warrior",
+            "Tracker's Knife + Warrior"
+          ],
+          "type": "not"
+        }
+      ]
+    },
+    {
+      "icon": "Tracker's_Knife.png",
+      "id": 9011,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Tracker's Knife + Warrior",
+      "requirements": [
+        {
+          "params": [
+            "Skirmisher's Sabre + Devourer",
+            "Stalker's Blade + Devourer",
+            "Tracker's Knife + Devourer",
+            "Skirmisher's Sabre + Cinderhulk",
+            "Stalker's Blade + Cinderhulk",
+            "Tracker's Knife + Cinderhulk",
+            "Skirmisher's Sabre + Runic Echoes",
+            "Stalker's Blade + Runic Echoes",
+            "Tracker's Knife + Runic Echoes",
+            "Skirmisher's Sabre + Warrior",
+            "Stalker's Blade + Warrior",
+            "Tracker's Knife + Warrior"
+          ],
+          "type": "not"
+        }
+      ]
+    }
+  ],
+  "summoners": [
+    {
+      "icon": "Barrier.png",
+      "id": 0,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Barrier",
+      "requirements": []
+    },
+    {
+      "icon": "Flash.png",
+      "id": 1,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Flash",
+      "requirements": []
+    },
+    {
+      "icon": "Garrison.png",
+      "id": 2,
+      "maps": [
+        "CS"
+      ],
+      "name": "Garrison",
+      "requirements": []
+    },
+    {
+      "icon": "Ghost.png",
+      "id": 3,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Ghost",
+      "requirements": []
+    },
+    {
+      "icon": "Heal.png",
+      "id": 4,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Heal",
+      "requirements": []
+    },
+    {
+      "icon": "Ignite.png",
+      "id": 5,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Ignite",
+      "requirements": []
+    },
+    {
+      "icon": "Mark.png",
+      "id": 6,
+      "maps": [
+        "HA"
+      ],
+      "name": "Mark",
+      "requirements": []
+    },
+    {
+      "icon": "Smite.png",
+      "id": 7,
+      "maps": [
+        "SR",
+        "TT"
+      ],
+      "name": "Smite",
+      "requirements": []
+    },
+    {
+      "icon": "Exhaust.png",
+      "id": 8,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Exhaust",
+      "requirements": []
+    },
+    {
+      "icon": "Cleanse.png",
+      "id": 9,
+      "maps": [
+        "SR",
+        "TT",
+        "CS",
+        "HA"
+      ],
+      "name": "Cleanse",
+      "requirements": []
+    }
+  ]
+}

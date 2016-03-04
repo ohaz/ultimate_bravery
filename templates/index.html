@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Welcome to the League of Ultimate Bravery</h1>
+    <br/>
+    Random Champion - Random Items - Random Summoners<br/>
+    Maps and Items up to date to: V6.3<br/>
+    <br/>
+    <br/>
+    <b>Choose your map:</b><br/>
+    <a href="{{ url_for('generate', game_map='SR') }}"><img src="{{ url_for('static', filename='gfx/sr.png') }}" alt="SR"/></a>
+    <a href="{{ url_for('generate', game_map='TT') }}"><img src="{{ url_for('static', filename='gfx/tt.png') }}" alt="TT"/></a><br/>
+    <a href="{{ url_for('generate', game_map='CS') }}"><img src="{{ url_for('static', filename='gfx/dom.png') }}" alt="DOM"/></a>
+    <a href="{{ url_for('generate', game_map='HA') }}"><img src="{{ url_for('static', filename='gfx/ha.png') }}" alt="HA"/></a>
+{% endblock %}

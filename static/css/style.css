@@ -1,0 +1,24 @@
+root {
+    display: block;
+}
+
+html {
+
+}
+
+ul
+{
+    list-style-type: none;
+}
+body {
+    background-color: black;
+    background-image: url('../gfx/bg3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+a:link {color:#0066ff}      /* unvisited link */
+a:visited {color:#0066ff}  /* visited link */

@@ -1,0 +1,133 @@
+{% extends "base.html" %}
+{% block content %}
+<div data-role="charm" class="bg-crimson" data-position="right" id="maxspells-charm" onclick="closeCharm('maxspells')">
+    <h1 class="text-light">Spells/Max-First</h1>
+    This section shows the skill you<br/>
+    have to max first. This means you<br/>
+    have to put a point in it whenever<br/>
+    you can. The only exception is<br/>
+    your ultimate, which you can<br/>
+    always skill first.<br/><br/>
+    This section also shows the<br/>
+    summoner spells you have to pick<br/>
+    during Champion Select.<br/>
+</div>
+<div data-role="charm" class="bg-emerald" data-position="right" id="items-charm" onclick="closeCharm('items')">
+    <h1 class="text-light">Items</h1>
+    This section shows the items you<br/>
+    have to buy. You have to buy the<br/>
+    items in the order displayed,<br/>
+    and you have to finish an item<br/>
+    before you are allowed to start<br/>
+    the next one. The boots are the<br/>
+    only exception, you can buy those<br/>
+    whenever you want and you don't<br/>
+    have to finish them.<br/>
+    <br/>
+    You are forbidden to buy any other<br/>
+    items except for the ones listed<br/>
+    and health potions. Once you've<br/>
+    completely finished your build<br/>
+    including boot enchantment, you<br/>
+    are allowed to buy elixirs.<br/>
+    <br/>
+    You can click on the images of<br/>
+    items that you have finished<br/>
+    to mark them as done.<br/>
+    You can also click on item<br/>
+    names to open their lol-wiki<br/>
+    page.
+</div>
+<div data-role="charm" class="bg-cobalt" data-position="right" id="link-charm" onclick="closeCharm('link')">
+    <h1 class="text-light">Link</h1>
+    This is a link which you can<br/>
+    send to others to show your build.<br/>
+    This link contains your Max-first,<br/>
+    your summoner spells and items.<br/>
+    You can also send this to prove<br/>
+    that you weren't cheating when<br/>
+    your friends think that your<br/>
+    build was too op.<br/>
+</div>
+<div class="bg-gray">
+    <h1 class="bg-dark" style="padding: 20px;text-align:center;">Ultimate Bravery on {{ mapname }}</h1>
+    <!--<a href="{{ url_for('generate', game_map=game_map) }}"><span style="margin-left: 10px;" class="mif-loop2 mif-lg"> New Build</span></a>-->
+    <ul class="step-list" style="padding-bottom: 10px">
+        <li>
+            <div class="panel collapsible" data-role="panel">
+                <div class="heading bg-crimson">
+                    <span class="title">Spells / Max First</span>
+                </div>
+                <div class="content">
+                    <div>
+                        <span class="icon mif-question mif-lg" style="float:right; margin: 5px;"
+                              onclick="showCharm('maxspells')"></span>
+
+                        <div style="padding:10px;">
+                            <img src="{{ url_for('static', filename='gfx/maxfirst/'+max_first+'.png') }}" class="shadow"
+                                 style="float: left;"/>
+
+                            <div>
+                                {% for summoner_spell in summoner_spells %}
+                                <img src="{{ url_for('static', filename=summoner_spell['icon']) }}" class="shadow"
+                                     style="width:32px;height:32px;"/> {{ summoner_spell['name'] }}<br/>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="panel collapsible" data-role="panel">
+                <div class="heading bg-emerald">
+                    <span class="title">Items</span>
+                </div>
+                <div class="content">
+                    <span class="icon mif-question mif-lg" style="float:right; margin: 5px;"
+                          onclick="showCharm('items')"></span>
+                    <table class="table cell-hovered">
+                        <tr>
+                            {% for item in items %}
+                            <th align="center">
+                                <div class="image-container rounded" onclick="checkImage(this)">
+                                    <img src="{{ url_for('static', filename=item['icon']) }}"
+                                         class="rounded bd-white shadow"/>
+                                </div>
+                            </th>
+                            {% endfor %}
+                        </tr>
+                        <tr>
+                            {% for item in items %}
+                            <td style="width: 110px; word-wrap:break-word; text-align: center;"><a
+                                    href="http://leagueoflegends.wikia.com/wiki/{{item['name']}}" target="_blank">{{
+                                item['name'] }}</a><br/>
+                                {% if item == items[0] %}
+                                <img src="{{ url_for('static', filename=boot_enchantment['icon']) }}" height="15px"
+                                     width="15px"/> {{ boot_enchantment['name'] }}
+                            </td>
+                            {% endif %}
+                            {% endfor %}
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="panel collapsible" data-role="panel">
+                <div class="heading bg-cobalt">
+                    <span class="title">Link</span>
+                </div>
+                <div class="content" style="padding-left:5px;">
+                    <span class="icon mif-question mif-lg" style="float:right; margin: 5px;"
+                          onclick="showCharm('link')"></span>
+                    <span class="input-control text" data-role="input" style="margin-bottom: 5px;">
+                        <input type="text" class="js-copytextarea" value="{{ url }}" style="width: 550px" readonly/>
+                    </span>
+                    <span style="margin-left: 372px"><button class="button"><span class="mif-files-empty js-textareacopybtn2"></span></button></span>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+{% endblock %}

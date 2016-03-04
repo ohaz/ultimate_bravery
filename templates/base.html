@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{{ url_for('static', filename='css/metro.min.css') }}" rel="stylesheet">
+    <script src="{{ url_for('static', filename='js/jquery-1.12.0.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/metro.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/navbar.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/charm.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/check.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/metro-icons.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/metro-schemes.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Ultimate Bravery</title>
+</head>
+<body>
+    <div style="padding-bottom:50px" data-role="appbar">
+        <header class="app-bar fixed-top darcula">
+            <div class="container">
+                <a class="app-bar-element branding" href="{{ url_for('index') }}">Ultimate Bravery</a>
+                <ul class="app-bar-menu">
+                    <li><span class="app-bar-divider"></span></li>
+                    {% if not maps %}
+                    <li>
+                        <a href="" class="dropdown-toggle">New Build</a>
+                        <ul class="d-menu" data-role="dropdown">
+                            <li><a href="{{ url_for('generate', game_map='SR') }}">Summoner's Rift</a></li>
+                            <li><a href="{{ url_for('generate', game_map='TT') }}">Twisted Treeline</a></li>
+                            <li><a href="{{ url_for('generate', game_map='CS') }}">Crystal Scar</a></li>
+                            <li><a href="{{ url_for('generate', game_map='HA') }}">Howling Abyss</a></li>
+                        </ul>
+                    </li>
+                    {% else %}
+                    <li><span class="app-bar-divider"></span></li>
+                    <li><a class="app-bar-element mif-loop2 mif-lg" href="{{ url_for('generate', game_map=game_map) }}">New Build</a></li>
+                    <li>
+                        <a href="" class="dropdown-toggle">Wrong Map?</a>
+                        <ul class="d-menu" data-role="dropdown">
+                        {% for k,m in maps.items() %}
+                        <li><a href="{{ url_for('generate', game_map=k) }}">{{ m }}</a></li>
+                        {% endfor %}
+                        </ul>
+                    </li>
+                    <li><a class="app-bar-element mif-loop2 mif-lg js-textareacopybtn" id="copyButton" value="{{ url }}">Copy Link</a></li>
+                    {%endif%}
+                    <li><span class="app-bar-divider"></span></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                </ul>
+
+            </div>
+        </header>
+    </div>
+
+    <div class="grid">
+        <div class="row" style="max-width:960px;margin:0 auto;">
+            <!--<div class="cell colspan3"></div>
+            <div class="cell colspan6">-->
+                {% block content %}
+                {%  endblock %}
+            <!---</div>
+            <div class="cell colspan3"></div>-->
+        </div>
+    </div>
+</body>
+</html>
