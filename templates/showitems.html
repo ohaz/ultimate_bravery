@@ -64,7 +64,7 @@
                               onclick="showCharm('maxspells')"></span>
 
                         <div style="padding:10px;">
-                            <img src="{{ url_for('static', filename='gfx/maxfirst/'+max_first+'.png') }}" class="shadow"
+                            <img src="{{ url_for('static', filename=max_first+'.png') }}" class="shadow"
                                  style="float: left;"/>
 
                             <div>
@@ -102,11 +102,7 @@
                             <td style="width: 110px; word-wrap:break-word; text-align: center;"><a
                                     href="http://leagueoflegends.wikia.com/wiki/{{item['name']}}" target="_blank">{{
                                 item['name'] }}</a><br/>
-                                {% if item == items[0] %}
-                                <img src="{{ url_for('static', filename=boot_enchantment['icon']) }}" height="15px"
-                                     width="15px"/> {{ boot_enchantment['name'] }}
                             </td>
-                            {% endif %}
                             {% endfor %}
                         </tr>
                     </table>
